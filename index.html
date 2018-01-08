@@ -16,57 +16,26 @@
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-desktop.css" />
 		</noscript>
+
+		<!-- Load the Header and Footer -->
+		<script> $(function(){$("#header-container").load("header.html");}); </script> 
+		<script> $(function(){$("#footer-container").load("footer.html");}); </script>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body class="homepage">
 
 		<!-- Header -->
-			<div id="header-wrapper">
-				<header id="header" class="container">
-				
-					<!-- Logo -->
-						<div id="logo"><a href="http://www.ieee.org/index.html"><img src="Images/IEEE.png" width="230" height="80" alt=""/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.wpi.edu"><img src="Images/WPI-Logo.png" width="215" height="80" alt=""/></a></div>
-					
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="http://ieee.wpi.edu">Home</a></li>
-								<li>
-									<a href="">About</a>
-									<ul>
-										<li><a href="http://www.ieee.org/about/index.html">IEEE</a></li>
-										<li><a href="#">WPI Branch</a></li>
-										<li>
-											<a href="">Officers</a>
-											<ul>
-												<li><a href="officers.html">Current Officers</a></li>
-                                                					</ul>
-										</li>
-										<li><a href="https://orgsync.com/39256/files/679439/show">By-laws</a>
-									</ul>
-								</li>
-								<li><a href="">Programs &amp; Events</a>
-                                	<ul><li>
-									<a href="https://orgsync.com/39256/events">Upcoming Events</a>
-                                    	</li>
-                                        <li>
-                                        <a href="https://orgsync.com/39256/calendar">Calendar</a>
-                                        </ul></li>
-                                        <li><a href="http://www.ieee.org/membership_services/membership/students/branch_resources.html">Member Resources</a></li>
-						</nav>
-					
-				</header>
-			</div>
+		<div id="header-container"></div>
 		
 		<!-- Banner -->
 			<div id="banner-wrapper">
 				<div id="banner" class="box container">
 					<div class="row">
-						<div class="7u">
-							<h1>Welcome to the WPI IEEE Student Branch!</h1>
-							<p>The WPI IEEE Student Branch is run by students and forms part of the global IEEE community.</p>
+						<div class="8u">
+							<h2>Welcome to the WPI IEEE Student Branch!</h2>
+							<font size="1"><p>The Institute of Electrical and Electronics Engineers is the world's largest technical professional society. A non-profit organization, IEEE promotes the development and application of electrotechnology and allied sciences for the benefit of humanity, the advancement of the profession, and the well-being of its members. The purpose of this organization is to represent the National IEEE organization at WPI and to provide programming and social events for the Electrical and Computer Engineering Department.</p></font>
 						</div>
-						<div class="5u">
+						<div class="4u">
 							<ul>
 								<li><a href="https://docs.google.com/forms/d/1PF5Bq52X6USC2IWTbKYrg52RsbjrRkVpGMg6FI7jNG0/viewform?usp=send_form" class="button big icon fa-arrow-circle-right">E-mail Sign Up</a></li>
 								<li><a href="https://docs.google.com/forms/d/17Ba_d50YMWzi-TtvuqOmInOz1Esgvfbw-oD4ScgXTy0/viewform" class="button big icon fa-arrow-circle-right">Alumni E-mail Sign Up</a></li>
@@ -75,71 +44,40 @@
 					</div>
 				</div>
 			</div>
-		
-		<!-- Features -->
-			<div id="features-wrapper">
-				<div class="container">
+			<br />
+			<!-- Banner -->
+			<div id="banner-wrapper">
+				<div id="banner" class="box container">
 					<div class="row">
 						<div class="12u">
-						
-							<!-- Box -->
-								<section class="box feature">
-									<div class="inner">
-										<h2 align="center">Have any suggestions? &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Ask them <a href="https://orgsync.com/39256/forms/188823"><u>here</u></a>!</h2>
-									</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="6u">
-						
-							<!-- Box -->
-								<section class="box feature">
-									<div class="inner">
-											<h2>Current Execs</h2>
-											<p>Chairman: Alex Briskman </p>
-											<p>Vice-Chairman: Jeff Martin</p>
-											<p>Secretary: Tom Brown</p>
-											<p>Treasurer: Daniel Peleaz</p>
-											<br>
-											<h2>Committee Chairs</h2>
-											<p>Projects: Christian Elzey</p>
-											<p>Public Relations: Linnea Brown</p>
-											<p>Public Events: Michael Truong, Calum Briggs</p>
-
-									</div>
-								</section>
-
+							<h2 align="center">Upcoming Events - Spring Semester</h2>
 						</div>
 						<div class="6u">
-						
-							<!-- Box -->
-								<section class="box feature last">
-									<div class="inner">
-										<header>
-											<h2> Meeting Times for A Term 2017 </h2>
-										</header>
-										<p>
-											Open Officer Meetings will be held Tuesdays  from 7:00PM to 8:00PM in AK207A.
-											Feel free to stop by and learn more about IEEE behind the scenes. 
-										</p>
-									</div>
-								</section>
-
+							<h1> General Body Meetings - C Term, 2018 </h1>
+								<font size="1"><p> General Body meetings are held on a weekly basis. The time and location of which are to be determined for the upcoming term.</p></font>
+						</div>
+						<div class="6u">
+							<h1> Other Events </h1>
+								<font size="1"><p>
+									<b>Networking Dinner</b> - TBD. <br />
+									<b>Officer Elections</b> - TBD. <br />
+									<b>Fox Hunt</b> - TBD.
+								</p></font>
 						</div>
 					</div>
 				</div>
 			</div>
+			
+			<br />
 
-		<!-- Main -->
-			<div id="main-wrapper">
-				<div class="container">
+			<!-- Banner -->
+			<div id="banner-wrapper">
+				<div id="banner" class="box container">
 					<div class="row">
 						<div class="4u">
-						
 							<!-- Sidebar -->
 								<div id="sidebar">
 									<section class="widget thumbnails">
-										<h3>Interesting stuff</h3>
 										<div class="grid">
 											<div class="row no-collapse 50%">
 												<div class="6u"><a href="" class="image fit"><img src="http://www.wpi.edu/Images/CMS/News/grid_storage.jpg" alt="" /></a></div>
@@ -150,110 +88,19 @@
 												<div class="6u"><a href="#" class="image fit"><img src="http://www.wpi.edu/Images/CMS/Robotics/PPD1_rdax_344x230.JPG" /></a></div>
 											</div>
 										</div>
-										<a href="https://www.facebook.com/IEEEWPI/photos_stream" class="button icon fa-file-text-o">More</a>
 									</section>
-								</div>
-						
+								</div>	
 						</div>
-						<div class="8u important(collapse)">
-
-							<!-- Content -->
-								<div id="content">
-									<section class="last">
-										<h2>Why should I join?</h2>
-										<p>Join IEEE and become a part of the world's largest professional association, dedicated to advancing technological innovation and excellence! Our main goal is to expose students to IEEE and promote values of IEEE by holding various activites for student members throughout the year.
-
-Student membership allows access to conferences and local events!</p>
-										<a href="#" class="button icon fa-arrow-circle-right">Continue Reading</a>
-									</section>
-								</div>
-
+						<div class="8u">
+							<h2>Why Should I Join IEEE?</h2>
+							<font size="2"<p>Join IEEE and become a part of the world's largest professional association, dedicated to advancing technological innovation and excellence! Our main goal is to expose students to IEEE and promote values of IEEE by holding various activites for student members throughout the year. Student membership allows access to conferences and local events!</p></font>
 						</div>
 					</div>
 				</div>
 			</div>
 
-		<!-- Footer -->
-			<div id="footer-wrapper">
-				<footer id="footer" class="container">
-					<div class="row">
-						<div class="3u">
-						
-							<!-- Links -->
-								<section class="widget links">
-									<h3>IEEE Links</h3>
-									<ul class="style2">
-										<li><a href="http://www.ieee.org/about/index.html">About IEEE</a></li>
-										<li><a href="http://www.ieee.org/membership_services/index.html">Membership &amp; Services</a></li>
-										<li><a href="http://www.ieee.org/societies_communities/index.html">Societies &amp; Communities</a></li>
-										<li><a href="http://www.ieee.org/publications_standards/index.html">Publications &amp; Standards</a></li>
-										<li><a href="http://www.ieee.org/conferences_events/index.html">Conferences &amp; Events</a></li>
-									</ul>
-								</section>
-						
-						</div>
-						<div class="3u">
-						
-							<!-- Links -->
-								<section class="widget links">
-									<h3>IEEE Resources</h3>
-									<ul class="style2">
-										<li><a href="http:/ieee.org/index.html">IEEE.org
-                                        <li><a href="http://ieeexplore.ieee.org/Xplore/home.jsp">IEEE <em>Xplore</em> Digital Library</li></a>
-										<li><a href="http://standards.ieee.org">IEEE Standards</a></li>
-										<li><a href="http://spectrum.ieee.org">IEEE Spectrum</a></li>
-										<li><a href="http://www.ieee.org/sitemap.html">More Sites</a></li>
-                                        </ul>
-								</section>
-						
-						</div>
-						<div class="3u">
-						
-							<!-- Links -->
-								<section class="widget links">
-									<h3>More Resources</h3>
-									<ul class="style2">
-										<li><a href="http://www.ieee.org/membership_services/membership/students/index.html">IEEE Students</a></li>
-										<li><a href="http://www.ieee.org/membership_services/membership/my_ieee.html">myIEEE</a></li>
-										<li><a href="http://users.rcn.com/ieeeworc/">Worcester Section Home</a></li>
-										<li><a href="http://www.wpi.edu">WPI Home</a></li>
-										<li><a href="http://www.hkn.wpi.edu">WPI Eta Kappa Nu Chapter (HKN)</a></li>
-									</ul>
-								</section>
-						
-						</div>
-						<div class="3u">
-						
-							<!-- Contact -->
-								<section class="widget contact last">
-									<h3>Follow Us</h3>
-									<ul>
-										<li><a href="https://www.twitter.com" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="https://www.facebook.com/IEEEWPI" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-										<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-									</ul>
-                                    <h3>Contact Us</h3>
-                                        <ul>
-									<p>100 Institute Road<br />
-									Worcester, MA 01609<br />
-									ieee-officers@wpi.edu</p>
-								</section>
-						
-						</div>
-					</div>
-					<div class="row">
-						<div class="12u" style="padding:0;">
-							<div id="copyright">
-								<ul class="menu">
-									<li>&copy; Copyright IEEE 2015 - All Rights Reserved</li><li><a href="http://www.ieee.org/security_privacy.html">Privacy & Opting Out of Cookies</a></li><li><a href="http://www.ieee.org/site_terms_conditions.html">Terms & Conditions</a></li><li><a href="http://www.ieee.org/about/corporate/governance/p9-26.html">Nondiscrimination Policy</a>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</footer>
-			</div>
+			<!-- Footer -->
+			<div id="footer-container"></div>
 
 	</body>
 </html>
